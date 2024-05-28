@@ -6,7 +6,7 @@ function Newsletter() {
             <form action="" className="flex w-full flex-col justify-center items-start mx-auto md:flex-row md:mx-0 space-y-6 text-base px-6 md:space-x-4 md:space-y-0 md:0">
                 <div className="flex flex-col max-w-2xl justify-between items-center mx-auto md:flex-row ">
                     <input type="text"
-                        className="flex-1 px-6 pt-3 pb-2 mb-4 rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0"
+                        className="flex-1 px-6 text-black pt-3 pb-2 mb-4 rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0"
                         placeholder="Enter your email address"
                     />
                     <input type="submit"
