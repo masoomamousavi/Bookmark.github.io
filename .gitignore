@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/*
+# Directory for built files
+build/
+# Directory for generated files
+dist/
+# Environment variables file
+.env
+# Cache directory
+.cache/
+# IDE files
+.vscode/
+.idea/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# macOS file system metadata
+.DS_Store
+# Windows thumbnail cache files
+Thumbs.db
+# User-specific files
+*.log
