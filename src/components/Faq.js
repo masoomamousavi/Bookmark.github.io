@@ -1,6 +1,6 @@
 function Faq() {
     return (
-        <section id="faq" className="mt-32 lg:mt-40 flex flex-col space-y-3">
+        <section id="faq" className=" px-3 md:px-0 mt-32 lg:mt-40 flex flex-col space-y-3">
             <h1 className="font-semibold text-2xl lg:text-4xl text-center py-3">Frequently Asked Questions</h1>
             <p className=" font-normal text-lg text-grayishBlue text-center max-w-md mx-auto">Here are some of our FAQs. If you have any other questions you'like answered please feel free to email us.</p>
             {/* main container of Faqs */}

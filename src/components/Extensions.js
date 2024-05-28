@@ -25,7 +25,7 @@ function Extensions() {
         }
     ])
     return (
-        <section id="download" className="mt-8 space-y-3 container mx-auto">
+        <section id="download" className=" px-3 md:px-0 mt-8 space-y-3 container mx-auto">
             <h1 className="font-semibold text-2xl lg:text-4xl text-center py-3">
                 Download the extension
             </h1>
