@@ -1,7 +1,7 @@
 
 function ExtensionBox(props) {
     return (
-        <div className="shadow-lg py-7 dark:bg-gray-100 mt-5 justify-center items-center rounded-lg border flex flex-col space-y-5">
+        <div className="shadow-lg py-7 bg-gray-100 mt-5 justify-center items-center rounded-lg border flex flex-col space-y-5">
             <div className="text-center flex justify-center">
                 <img src={props.img} alt="" />
             </div>
