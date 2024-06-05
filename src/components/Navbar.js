@@ -5,10 +5,10 @@ export function Navbar1() {
         <div className="navbar bg-base-100 mb-8 lg:mb-2">
             <a href="index.html">
                 <div className="logo cursor-pointer z-30 flex items-center ml-10 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-blue-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-blue-900 dark:text-blue-500">
                         <path fill-rule="evenodd" d="M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25ZM6 13.25V3.5h8v9.75a.75.75 0 0 1-1.064.681L10 12.576l-2.936 1.355A.75.75 0 0 1 6 13.25Z" clip-rule="evenodd" />
                     </svg>
-                    <span className="uppercase text-xl font-semibold text-gray-900 pl-1">BookMark</span>
+                    <span className="uppercase text-xl font-semibold text-gray-900 pl-1 dark:text-white">BookMark</span>
                 </div>
             </a>
             <div className="lg:navbar-start navbar-end w-full">
@@ -29,9 +29,9 @@ export function Navbar1() {
             </div>
             <div className="navbar-end  hidden lg:flex lg:max-w-screen-lg">
                 <ul className="menu menu-horizontal w-full space-x-0 lg:space-x-2 px-1">
-                    <li><a href="#features" className='tracking-widest hover:text-softRed text-md'>features</a></li>
-                    <li> <a href="#download" className='tracking-widest hover:text-softRed text-md'>Download</a></li>
-                    <li> <a href="#faq" className='tracking-widest text-md hover:text-softRed'>faq</a></li>
+                    <li><a href="#features" className='tracking-widest hover:text-softRed text-md dark:text-gray-100'>features</a></li>
+                    <li> <a href="#download" className='tracking-widest hover:text-softRed text-md dark:text-gray-100'>Download</a></li>
+                    <li> <a href="#faq" className='tracking-widest text-md hover:text-softRed dark:text-gray-100'>faq</a></li>
                     <li> <a className='tracking-widest hover:cursor-pointer bg-softRed px-8 py-2 text-md text-white border-2 border-softRed rounded-lg text-md shadow-md hover:text-softRed hover:bg-white'>Login</a></li>
                 </ul>
             </div>

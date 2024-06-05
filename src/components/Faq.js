@@ -1,8 +1,8 @@
 function Faq() {
     return (
         <section id="faq" className=" px-3 md:px-0 mt-32 lg:mt-40 flex flex-col space-y-3">
-            <h1 className="font-semibold text-2xl lg:text-4xl text-center py-3">Frequently Asked Questions</h1>
-            <p className=" font-normal text-lg text-grayishBlue text-center max-w-md mx-auto">Here are some of our FAQs. If you have any other questions you'like answered please feel free to email us.</p>
+            <h1 className="font-semibold text-2xl lg:text-4xl text-center py-3 dark:text-gray-100">Frequently Asked Questions</h1>
+            <p className=" font-normal text-lg text-grayishBlue text-center dark:text-gray-200 max-w-md mx-auto">Here are some of our FAQs. If you have any other questions you'like answered please feel free to email us.</p>
             {/* main container of Faqs */}
             <div className="container mb-32 px-6 mx-auto">
                 {/* Accordination Container */}
@@ -12,7 +12,7 @@ function Faq() {
                         {/* tab flex container */}
                         <div className="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor pointer group ease">
                             {/* Tab Title */}
-                            <div className="transition duration-500 ease group-hover:text-red-500">
+                            <div className="transition duration-500 dark:text-gray-100 ease  group-hover:text-red-500">
                                 What is Bookmark?
                             </div>
                             {/* Arrow */}
@@ -23,7 +23,7 @@ function Faq() {
                             </div>
                         </div>
                         <div className="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p className="py-2 text-justify text-gray-400">
+                            <p className="py-2 text-justify dark:text-gray-200 text-gray-400">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptatem ad tenetur dignissimos quasi! Mollitia atque accusantium dignissimos odio accusamus, deleniti incidunt qui sit, neque consectetur quod laborum ad.
                             </p>
                         </div>
@@ -33,7 +33,7 @@ function Faq() {
                         {/* tab flex container */}
                         <div className="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor pointer group ease">
                             {/* Tab Title */}
-                            <div className="transition duration-500 ease group-hover:text-red-500">
+                            <div className="transition duration-500 dark:text-gray-100 ease group-hover:text-red-500">
                                 How can I request a new browser?
                             </div>
                             {/* Arrow */}
@@ -44,7 +44,7 @@ function Faq() {
                             </div>
                         </div>
                         <div className="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p className="py-2 text-justify text-gray-400">
+                            <p className="py-2 text-justify dark:text-gray-200 text-gray-400">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptatem ad tenetur dignissimos quasi! Mollitia atque accusantium dignissimos odio accusamus, deleniti incidunt qui sit, neque consectetur quod laborum ad.
                             </p>
                         </div>
@@ -54,7 +54,7 @@ function Faq() {
                         {/* tab flex container */}
                         <div className="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor pointer group ease">
                             {/* Tab Title */}
-                            <div className="transition duration-500 ease group-hover:text-red-500">
+                            <div className="transition duration-500 ease dark:text-gray-100 group-hover:text-red-500">
                                 Is there any mobile app?
                             </div>
                             {/* Arrow */}
@@ -65,7 +65,7 @@ function Faq() {
                             </div>
                         </div>
                         <div className="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p className="py-2 text-justify text-gray-400">
+                            <p className="py-2 text-justify dark:text-gray-200 text-gray-400">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptatem ad tenetur dignissimos quasi! Mollitia atque accusantium dignissimos odio accusamus, deleniti incidunt qui sit, neque consectetur quod laborum ad.
                             </p>
                         </div>
@@ -75,7 +75,7 @@ function Faq() {
                         {/* tab flex container */}
                         <div className="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor pointer group ease">
                             {/* Tab Title */}
-                            <div className="transition duration-500 ease group-hover:text-red-500">
+                            <div className="transition duration-500 dark:text-gray-100 eas group-hover:text-red-500">
                                 What about other Chromium browsers?
                             </div>
                             {/* Arrow */}
@@ -86,7 +86,7 @@ function Faq() {
                             </div>
                         </div>
                         <div className="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p className="py-2 text-justify text-gray-400">
+                            <p className="py-2 text-justify dark:text-gray-200 text-gray-400">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptatem ad tenetur dignissimos quasi! Mollitia atque accusantium dignissimos odio accusamus, deleniti incidunt qui sit, neque consectetur quod laborum ad.
                             </p>
                         </div>

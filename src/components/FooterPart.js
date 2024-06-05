@@ -10,9 +10,9 @@ function FooterPart() {
                     </svg>
                     <span className="uppercase text-xl font-semibold text-white pl-1">BookMark</span>
                 </div>
-                <a href="#features" className="uppercase text-grayishBlue text-base">Features</a>
-                <a href="#download" className="uppercase text-grayishBlue text-base">Download</a>
-                <a href="#faq" className="uppercase text-grayishBlue text-base">FAQ</a>
+                <a href="#features" className="uppercase text-grayishBlue text-base dark:text-gray-100">Features</a>
+                <a href="#download" className="uppercase text-grayishBlue text-base dark:text-gray-100">Download</a>
+                <a href="#faq" className="uppercase text-grayishBlue text-base dark:text-gray-100">FAQ</a>
             </div>
             <div className="flex-row flex items-center space-x-6">
                 <a href="#">
